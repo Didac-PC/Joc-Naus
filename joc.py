@@ -248,17 +248,17 @@ while True:
         # dibuixar vides jugador 1:
         if vides_jugador1 >=3:
             pantalla.blit(vides_imatge1,(700,560))
-        elif vides_jugador1 >= 2:
+        if vides_jugador1 >= 2:
             pantalla.blit(vides_imatge1, (720, 560))
-        elif vides_jugador1 >= 1:
+        if vides_jugador1 >= 1:
             pantalla.blit(vides_imatge1, (740, 560))
 
         # dibuixar vides jugador 2:
         if vides_jugador2 >= 3:
             pantalla.blit(vides_imatge2, (80, 20))
-        elif vides_jugador2 >= 2:
+        if vides_jugador2 >= 2:
             pantalla.blit(vides_imatge2, (60, 20))
-        elif vides_jugador2 >= 1:
+        if vides_jugador2 >= 1:
             pantalla.blit(vides_imatge2, (40, 20))
 
         if vides_jugador1 <= 0 or vides_jugador2 <= 0:
